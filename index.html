@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator incrivel</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="flex">
+        <div class="display">
+            <h1>SOMA</h1>
+            <input type="number" id="1" placeholder="Digite um número"></input>
+            <input type="number" id="2" placeholder="Digite outro número"></input>
+            <h1 id="resultado1"></h1>
+            <button onclick="somar()">Somar</button>
+        </div>
+
+        <div class="display-blue">
+            <h1>SUBTRAÇÃO</h1>
+            <input type="number" id="3" placeholder="Digite um número"></input>
+            <input type="number" id="4" placeholder="Digite outro número"></input>
+            <h1 id="resultado2"></h1>
+            <button onclick="subtrair()">Substrair</button>
+        </div>
+
+        <div class="display-green">
+            <h1>MULTIPLICAÇÃO</h1>
+            <input type="number" id="5" placeholder="Digite um número"></input>
+            <input type="number" id="6" placeholder="Digite outro número"></input>
+            <h1 id="resultado3"></h1>
+            <button onclick="multiplicar()">Multiplicar</button>
+        </div>
+
+    </div>
+
+    <div>
+        <div class="row">
+            <center>
+                <h1>Faça suas contas nessa <i>calculator</i> super incrível</h1>
+            </center>
+        </div>
+
+    </div>
+
+    <div class="flex">
+        <div class="display-orange">
+            <h1>Área do Triângulo</h1>
+            <input type="number" id="7" placeholder="Digite a base"></input>
+            <input type="number" id="8" placeholder="Digite a altura"></input>
+            <h1 id="resultado4"></h1>
+            <button onclick="area_triangulo()">Obter a área</button>
+        </div>
+
+        <div class="display-purple">
+            <h1>Área do Quadrado</h1>
+            <input type="number" id="9" placeholder="Digite um lado">
+            <h1 id="resultado5"></h1>
+            <button onclick="area_quadrado()">Obter a área</button>
+        </div>
+
+        <div class="display-pink">
+            <h1>Área do retângulo</h1>
+            <input type="number" id="10" placeholder="Digite a base"></input>
+            <input type="number" id="11" placeholder="Digite a altura"></input>
+            <h1 id="resultado6"></h1>
+            <button onclick="area_retangulo()">Obter a área</button>
+        </div>
+
+        <div class="display-yellow">
+            <h1>Área do trapézio</h1>
+            <input type="number" id="12" placeholder="Digite a base maior"></input>
+            <input type="number" id="13" placeholder="Digite a base menor"></input>
+            <input type="number" id="14" placeholder="Digite a altura"></input>
+            <h1 id="resultado7"></h1>
+            <button onclick="area_trapezio()">Obter a área</button>
+        </div>
+    </div>
+    <div class="flex">
+        <div class="display-red">
+            <h1>Área do losango</h1>
+            <input type="number" id="15" placeholder="Digite a diagonal maior"></input>
+            <input type="number" id="16" placeholder="Digite a diagonal menor"></input>
+            <h1 id="resultado8"></h1>
+            <button onclick="area_losango()">Obter a área</button>
+        </div>
+        <div class="display-grey">
+            <h1>Área do círculo</h1>
+            <input type="number" id="17" placeholder="Digite o raio"></input>
+            <input type="number" id="18" placeholder="Considere pi 3.14"></input>
+            <h1 id="resultado9"></h1>
+            <button onclick="area_circulo()">Obter a área</button>
+        </div>
+
+        <div class="display-darkblue">
+            <h1>Área setor Circular</h1>
+            <input type="number" id="19" placeholder="Digite o ângulo do setor(graus°)"></input>
+            <input type="number" id="20" placeholder="Considere pi 3.14"></input>
+            <input type="number" id="21" placeholder="Digite o raio"></input>
+            <h1 id="resultado10"></h1>
+            <button onclick="area_setorcircular()">Obter a área</button>
+
+        </div>
+
+        <div class="display-ciano">
+            <h1>Área coroa circular</h1>
+            <input type="number" id="22" placeholder="Digite o raio do circulo maior"></input>
+            <input type="number" id="23" placeholder="Digite o raio do circulo menor"></input>
+            <input type="number" id="24" placeholder="Considere pi 3.14"></input>
+            <h1 id="resultado11"></h1>
+            <button onclick="area_coroacircular()">Obter a área</button>
+        </div>
+    </div>
+    <div class="flex">
+
+        <div class="display-magenta">
+            <h1>Área elipse</h1>
+            <input type="number" id="25" placeholder="Digite o semieixo maior"></input>
+            <input type="number" id="26" placeholder="Digite o semieixo menor"></input>
+            <input type="number" id="27" placeholder="Considere pi 3.14"></input>
+            <h1 id="resultado12"></h1>
+            <button onclick="area_elipse()">Obter a área</button>
+        </div>
+
+ <div class="display-oliva">
+            <h1>Área paralelogramo</h1>
+            <input type="number" id="28" placeholder="Digite a base"></input>
+            <input type="number" id="29" placeholder="Digite a altura perpendicular à base"></input>
+            <h1 id="resultado13"></h1>
+            <button onclick="area_paralelogramo()">Obter a área</button>
+
+    </div>
+
+     <div class="display-brown">
+            <h1>Área polígono ragular</h1>
+            <input type="number" id="30" placeholder="Digite o semiperímetro"></input>
+            <input type="number" id="31" placeholder="Digite o  apótema"></input>
+            <h1 id="resultado14"></h1>
+            <button onclick="area_poligonoragular()">Obter a área</button>
+
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>

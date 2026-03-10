@@ -1,0 +1,98 @@
+h1 {
+    color: black;
+}
+
+.display {
+    background-color: lightcoral;
+    padding: 50px;
+    width: 50%;
+}
+
+.display-blue {
+    background-color: cornflowerblue;
+    padding: 50px;
+    width: 50%;
+}
+
+.display-green {
+    background-color: green;
+    padding: 50px;
+    width: 50%;
+}
+
+.display-orange {
+    background-color: rgb(250, 103, 50);
+    padding: 50px;
+    width: 50%;
+}
+
+.display-purple {
+    background-color: rgb(150, 86, 187);
+    padding: 50px;
+    width: 50%;
+}
+
+.display-pink {
+    background-color: pink;
+    padding: 50px;
+    width: 50%;
+}
+
+.display-yellow {
+    background-color: yellow;
+    padding: 50px;
+    width: 50%;
+}
+
+.display-red {
+    background-color: red;
+    padding: 50px;
+    width: 50%;
+
+}
+
+.display-grey {
+    background-color: grey;
+    padding: 50px;
+    width: 50%;
+}
+
+.display-darkblue {
+    background-color: darkblue;
+    padding: 50px;
+    width: 50%;
+}
+
+.display-ciano {
+    background-color: aqua;
+    padding: 50px;
+    width: 50%;
+}
+
+.display-magenta {
+    background-color: magenta;
+    padding: 50px;
+    width: 50%;
+}
+
+.display-oliva {
+    background-color: olivedrab;
+    padding: 50px;
+    width: 50%;
+}
+
+.display-brown {
+    background-color: brown;
+    padding: 50px;
+    width: 50%;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.row {
+    background-color: firebrick;
+    text-align: center;
+}
