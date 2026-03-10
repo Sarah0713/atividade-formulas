@@ -75,29 +75,26 @@ function area_circulo() {
     let num1 = 3.14
     num = parseInt(document.getElementById('17').value)
     num1 = parseInt(document.getElementById('18').value)
-    document.getElementById("resultado9").innerText = (num1*num^2)
+    document.getElementById("resultado9").innerText = (num1*num**2)
 }
 
 function area_setorcircular() {
 let num
 let num1 = 3.14
 let num2
-num = parseInt(document.getElementById('19').value)
+num = parseFloat(document.getElementById('19').value)
 num1 = parseInt(document.getElementById('20').value)
 num2 = parseInt(document.getElementById('21').value)
-document.getElementById("resultado10").innerText = (num*num1*num2^2)/360
-console.log((num*num1*num2^2)/360);
+document.getElementById("resultado10").innerText = (num*num1*num2**2)/360
+console.log((num*num1*(num2**2)/360));
 }
 
 function area_coroacircular() {
-let num
-let num1
-let num2 = 3.14
-num = parseInt(document.getElementById('22').value)
-num1 = parseInt(document.getElementById('23').value)
-num2 = parseInt(document.getElementById('24').value)
-document.getElementById("resultado11").innerText = (num^2 - num1^2)*num2
-console.log((num^2 - num1^2)*num2);
+    let num
+    let num1
+    num = parseFloat(document.getElementById('22').value)
+    num1 = parseInt(document.getElementById('23').value)
+    document.getElementById('resultado11').innerText = 3.14 * ((num ** 2) - (num1 ** 2))
 }
 
 function area_elipse() {
